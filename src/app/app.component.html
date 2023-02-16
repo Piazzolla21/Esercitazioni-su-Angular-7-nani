@@ -1,0 +1,12 @@
+<div>
+  <app-nano *ngFor="let nan of nani" [nan] ='nan'></app-nano>
+</div>
+<h1>Es2</h1>
+<div class="es2">
+  <span [class]="classe">{{stringInterpolation}}</span>
+  <br>
+  <button (click)="eventBinding()">Cliccka</button>
+  <br>
+  <input type="text" [(ngModel)] = 'twoWayBinding'>
+  <p>{{twoWayBinding}}</p>
+</div>
